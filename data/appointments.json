@@ -1,0 +1,5 @@
+[
+  {"id":"A-1","technician_id":"T-101","start":"2026-11-17T09:00:00","end":"2026-11-17T10:30:00","request_id":"SR-OLD-1"},
+  {"id":"A-2","technician_id":"T-102","start":"2026-11-17T08:00:00","end":"2026-11-17T09:00:00","request_id":"SR-OLD-2"},
+  {"id":"A-3","technician_id":"T-103","start":"2026-11-17T12:00:00","end":"2026-11-17T14:00:00","request_id":"SR-OLD-3"}
+]

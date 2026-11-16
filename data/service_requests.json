@@ -1,0 +1,5 @@
+[
+  {"id":"SR-1001","customer":"Oak Street Cafe","territory":"central","description":"Walk-in cooler is not holding temperature; food stock at risk.","required_skills":["refrigeration"],"sla_hours":4,"equipment_down":true,"tags":["commercial refrigeration"]},
+  {"id":"SR-1002","customer":"Maple Apartments","territory":"north","description":"Annual HVAC maintenance for rooftop unit.","required_skills":["hvac"],"sla_hours":72,"equipment_down":false,"tags":["maintenance"]},
+  {"id":"SR-1003","customer":"Riverside Home","territory":"south","description":"Customer reports a possible gas leak near furnace.","required_skills":["hvac"],"sla_hours":1,"equipment_down":true,"tags":["gas leak","safety"]}
+]

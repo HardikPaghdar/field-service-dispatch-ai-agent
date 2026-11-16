@@ -1,0 +1,6 @@
+[
+  {"id":"T-101","name":"Ava Patel","skills":["hvac","electrical","diagnostics"],"territories":["north","central"]},
+  {"id":"T-102","name":"Noah Brooks","skills":["hvac","refrigeration"],"territories":["south","central"]},
+  {"id":"T-103","name":"Mia Chen","skills":["plumbing","electrical"],"territories":["north","south"]},
+  {"id":"T-104","name":"Ethan Wilson","skills":["hvac","controls","diagnostics"],"territories":["east","central"]}
+]
