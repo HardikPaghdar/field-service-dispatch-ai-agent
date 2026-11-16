@@ -59,6 +59,8 @@ def assess(request: dict[str, Any]) -> dict[str, Any]:
     skills = set(request.get("required_skills", []))
     if "cooling" in text or "air conditioning" in text:
         skills.add("hvac")
+    if any(word in text for word in ("gas leak", "smoke", "electrical burning", "carbon monoxide")):
+        skills.add("gas_safety")
     return {"request_id": request["id"], "priority": priority, "priority_score": score,
             "required_skills": sorted(skills), "reason": reason,
             "human_review_required": True}
